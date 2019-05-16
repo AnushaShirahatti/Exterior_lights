@@ -4,5 +4,5 @@ compiler:
  	-clang
  	-gcc
 script:
- 	-clang -coverage -O0 ext_light.c -o ext_light
- 	-./ext_light
+ 	-clang -coverage -O0 ext_Lights.c -o ext_Lights
+ 	-./ext_Lights
