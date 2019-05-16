@@ -1,0 +1,8 @@
+language:c
+sudo:false 
+compiler:
+ 	-clang
+ 	-gcc
+script:
+ 	-clang -coverage -O0 ext_light.c -o ext_light
+ 	-./ext_light
